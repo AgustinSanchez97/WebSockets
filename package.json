@@ -1,0 +1,27 @@
+{
+  "name": "coderhousebackend_websockets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgustinSanchez97/CoderHouseBackend_Proyecto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgustinSanchez97/CoderHouseBackend_Proyecto/issues"
+  },
+  "homepage": "https://github.com/AgustinSanchez97/CoderHouseBackend_Proyecto#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "socket.io": "^4.5.4"
+  }
+}

@@ -1,0 +1,31 @@
+<div>
+    <h1>Productos Agregados</h1>
+    <div>
+        <h2>Seleccionar producto para Agregar</h2>
+        <select name="clothType" class="form-select form-select" id="addProduct">                
+                    <option value="Zapatillas">Zapatillas</option>
+                    <option value="Jeans">Jeans</option>
+                    <option value="Malla">Mallas</option>
+                    <option value="Remera mangas cortas">Remeras mangas cortas</option>
+                    <option value="Remera mangas larga">Remeras mangas largas</option>
+        </select>
+        <h2>Seleccionar producto para Eliminar</h2>
+        <select name="clothType" class="form-select form-select" id="deleteProduct">                    
+        </select>
+    </div>
+
+
+    <table id="allProductsAdded">
+        <tr>
+            <th>Order</th>
+            <th>Name</th>            
+        </tr>
+        
+    </table>
+    
+    {{!-- <div id="allProductsAdded"></div> --}}
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/changeProducts.js"></script>
